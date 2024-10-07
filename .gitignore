@@ -1,33 +1,117 @@
-# Gradle files
-.gradle/
-build/
-
-# Local configuration file (sdk path, etc)
-local.properties
-
-# Log/OS Files
-*.log
-
-# Android Studio generated files and folders
-captures/
-.externalNativeBuild/
-.cxx/
-*.apk
-output.json
-
-# IntelliJ
-*.iml
-.idea/
-misc.xml
-deploymentTargetDropDown.xml
-render.experimental.xml
-
-# Keystore files
-*.jks
-*.keystore
-
-# Google Services (e.g. APIs or Firebase)
-google-services.json
-
-# Android Profiling
-*.hprof
+local PabloLib = loadstring(game:HttpGet("https://raw.githubusercontent.com/BatuKvi123/PabloLibV3/main/PabloLibV3"))()
+local window = PabloLib:Create(
+"Kaan hub", -- .
+"Enabled", -- .
+"p" -- .
+)
+local tab1 = window:CreateTab("Speed changer")
+tab1:CreateButton("Speed script", function()
+--[[
+	WARNING: Heads up! This script has not been verified by ScriptBlox. Use at your own risk!
+]]
+loadstring(game:HttpGet("https://raw.githubusercontent.com/MrScripterrFr/Speed-Changer/main/Speed%20Changer"))();
+end)
+local tab1 = window:CreateTab("Blox fruits")
+tab1:CreateButton("Blox fruits redz hub", function()
+loadstring(game:HttpGet("https://raw.githubusercontent.com/REDzHUB/BloxFruits/main/redz9999"))()
+end)
+local tab1 = window:CreateTab("Fly gui")
+tab1:CreateButton("Fly script", function()
+loadstring(game:HttpGet("https://raw.githubusercontent.com/XNEOFF/FlyGuiV3/main/FlyGuiV3.txt"))()
+end)
+local tab1 = window:CreateTab("Anti afk")
+tab1:CreateButton("Anti afk gui", function()
+loadstring(game:HttpGet("https://raw.githubusercontent.com/evxncodes/mainroblox/main/anti-afk", true))()
+end)
+local tab1 = window:CreateTab("Jump power")
+tab1:CreateButton("Jump power script", function()
+local plr = game.Players.LocalPlayer
+local char = plr.Character
+ 
+char.Humanoid.JumpPower = 100
+end)
+local tab1 = window:CreateTab("Sols rng Key system")
+tab1:CreateButton("Sols rng script", function()
+loadstring(game:HttpGet("https://raw.githubusercontent.com/Looser3itx/Hmmmmmmmmmmmmmmmmmmmmmmmmmmmm/main/loader.lua"))()
+end)
+local tab1 = window:CreateTab("Murder vs Sheriffs")
+tab1:CreateButton("Mvsd script", function()
+loadstring(game:HttpGet("https://pastebin.com/raw/4MvbLUwi"))()
+end)
+local tab1 = window:CreateTab("Mm2")
+tab1:CreateButton("Mm2 X hub script", function()
+loadstring(game:HttpGet("https://raw.githubusercontent.com/Au0yX/Community/main/XhubMM2"))()
+end)
+tab1:CreateButton("Mm2 Yarhm Script", function()
+loadstring(game:HttpGet("https://raw.githubusercontent.com/Joystickplays/psychic-octo-invention/main/yarhm.lua", false))()
+end)
+local tab1 = window:CreateTab("Hitbox expander")
+tab1:CreateButton("Hitbox script", function()
+loadstring(game:HttpGet("https://raw.githubusercontent.com/Vcsk/RobloxScripts/main/HitboxExpander.lua"))()
+end)
+local tab1 = window:CreateTab("KAT")
+tab1:CreateButton("KAT script", function()
+loadstring(game:HttpGet('https://pastebin.com/raw/TDBuxW7W'))()
+end)
+local tab1 = window:CreateTab("Keyboard")
+tab1:CreateButton("Keyboard script", function()
+loadstring(game:HttpGet("https://raw.githubusercontent.com/advxzivhsjjdhxhsidifvsh/mobkeyboard/main/main.txt", true))()
+end)
+local tab1 = window:CreateTab("FE invisible")
+tab1:CreateButton("İnvisible script", function()
+loadstring(game:HttpGet('https://pastebin.com/raw/3Rnd9rHf'))()
+end)
+local tab1 = window:CreateTab("Slap battles")
+tab1:CreateButton("Slap battles script", function()
+--[[
+	WARNING: Heads up! This script has not been verified by ScriptBlox. Use at your own risk!
+]]
+loadstring(game:HttpGet("https://raw.githubusercontent.com/KykyryzoB/KykyryzoB-Hub-SB/main/KykryzoB.lua"))()
+end)
+local tab1 = window:CreateTab("Doors")
+tab1:CreateButton("Doors script", function()
+loadstring(game:HttpGet("https://raw.githubusercontent.com/Omgshit/Scripts/main/MainLoader.lua"))()
+end)
+local tab1 = window:CreateTab("Flapy bird")
+tab1:CreateButton("Flapy bird script", function()
+loadstring(game:HttpGet("https://pastebin.com/raw/rux7UL8L"))();
+end)
+local tab1 = window:CreateTab("Brookhaven")
+tab1:CreateButton("Brookhaven script", function()
+loadstring(game:HttpGet("https://rawscripts.net/raw/Universal-Script-rochips-universal-18294"))()
+end)
+local tab1 = window:CreateTab("Bedwars")
+tab1:CreateButton("Bedwars script", function()
+loadstring(game:HttpGet("https://raw.githubusercontent.com/7GrandDadPGN/VapeV4ForRoblox/main/NewMainScript.lua", true))()
+end)
+local tab1 = window:CreateTab("Strongest battle grounds")
+tab1:CreateButton("Tsb script", function()
+loadstring(game:HttpGet("https://raw.githubusercontent.com/sandwichk/RobloxScripts/main/Scripts/BadWare/Hub/Load.lua", true))()
+end)
+local tab1 = window:CreateTab("Pls donate")
+tab1:CreateButton("Pls donate script", function()
+loadstring(game:HttpGet('https://raw.githubusercontent.com/CF-Trail/tzechco-PlsDonateAutofarmBackup/main/old.lua'))()
+end)
+local tab1 = window:CreateTab("Admin scripts 5+")
+tab1:CreateButton("Yield script", function()
+loadstring(game:HttpGet('https://raw.githubusercontent.com/EdgeIY/infiniteyield/master/source'))()
+end)
+tab1:CreateButton("Nameless admin script", function()
+local script1 = loadstring(game:HttpGet("https://raw.githubusercontent.com/nobutttttttaka/YOOOOOOOOOO/main/lua"))()
+end)
+tab1:CreateButton("Fedora admin script", function()
+loadstring(game:HttpGet('https://raw.githubusercontent.com/alexx1212/fedoratoomutch/main/toomucth'))()
+end)
+tab1:CreateButton("GX Admin script", function()
+loadstring(game:HttpGet("https://pastebin.com/raw/v6E9BmFK",true))();
+end)
+tab1:CreateButton("CMD-X Admin script (devolepment)", function()
+loadstring(game:HttpGet("https://raw.githubusercontent.com/CMD-X/CMD-X/master/Source",true))()
+end)
+local tab1 = window:CreateTab("Blade ball")
+tab1:CreateButton("Blade ball script (key)", function()
+loadstring(game:HttpGet("https://pastebin.com/raw/7Fa0T52n",true))()
+end)
+tab1:CreateButton("Blade ball script (keyless)", function()
+loadstring(game:HttpGet("https://raw.githubusercontent.com/FFJ1/Roblox-Exploits/main/scripts/Loader.lua"))()
+end)
