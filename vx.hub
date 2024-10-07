@@ -1,9 +1,11 @@
 local PabloLib = loadstring(game:HttpGet("https://raw.githubusercontent.com/BatuKvi123/PabloLibV3/main/PabloLibV3"))()
 local window = PabloLib:Create(
-"Kaan hub", -- .
+"VX.hub", -- .
 "Enabled", -- .
 "p" -- .
 )
+local tab1 = window:CreateTab("Update logs")
+tab1:CreateInfo("Update logs: Added Arsenal script Script owner kaanprof2013 follow him fr fr")
 local tab1 = window:CreateTab("Speed changer")
 tab1:CreateButton("Speed script", function()
 --[[
@@ -149,4 +151,8 @@ tab1:CreateInfo("This will open Rivals script Tysm for using kaan hub")
 local tab1 = window:CreateTab("Fnf")
 tab1:CreateButton("Fnf script", function()
 loadstring(game:HttpGet('https://pastebin.com/raw/dcyuEgyK'))()
+end)
+local tab1 = window:CreateTab("Arsenal")
+tab1:CreateButton("Arsenal script", function()
+loadstring(game:HttpGet("https://raw.githubusercontent.com/tbao143/thaibao/main/TbaoHubArsenal"))("https://t.me/KrutoySuslik")
 end)
